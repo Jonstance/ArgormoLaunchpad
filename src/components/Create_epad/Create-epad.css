@@ -1,0 +1,39 @@
+span.cspn {
+    color: var(--font-black) !important;
+    font-size: 18px !important;
+}
+
+ .overlay-cw {
+    top: 100px;
+    width:100%;
+    bottom:0;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.712);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+} 
+
+@media only screen and (max-width:900px){
+    .overlay-cw {
+        width:100%;
+    }
+}
+
+.overlay-cw div {
+    font-size: 20px;
+    font-weight: 600;
+    color:var(--font-black);
+}
+
+.overlay-cw div span {
+    color: #D4A838;
+    cursor: pointer;
+}
+
+.currency-wrp .btns {
+    justify-content: center !important;
+    
+}

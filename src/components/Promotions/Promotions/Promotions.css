@@ -1,0 +1,112 @@
+.prm-wp {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.prm-wp label {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.prm-wp .text-row {
+  margin-bottom: 30px;
+}
+
+.prm-list {
+  width: 100%;
+  padding: 15px 10px;
+} 
+.prm-wp .list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bllk {
+  text-decoration: none;
+}
+
+.bli {
+  width: 160px;
+  /* background-color: var(--input-bg); */
+  background-color: rgb(48, 48, 48);
+  margin: 15px;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 13px
+}
+
+
+.bli .blimg {
+  width: 100%;
+  height: 110px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.bli .blimg img {
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+}
+
+.bli span.blnm {
+  display: block;
+  width: 90%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 10px 0px;
+}
+
+.edtsp {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #D4A838;
+  padding:5px;
+  font-size: 14px;
+  font-weight: bold;
+  color:rgb(255, 255, 255);
+  border-radius: 0px 0px 10px 10px;
+}
+
+@media only screen and (max-width:500px){
+  .bli{
+    width: 200px;
+    min-width: 200px;
+  }
+}
+
+.hashlist .blimg {
+  height: auto;
+  padding: 15px 10px;
+  display: block;
+  word-wrap: break-word;
+  font-weight: bold;
+  color:black;
+}
+
+.nw-p {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #D4A838;
+  color:white;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 30px;
+  cursor: pointer;
+}

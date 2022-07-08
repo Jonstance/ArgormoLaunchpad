@@ -1,0 +1,21 @@
+.cft {
+    width: 100%;
+    padding: 30px 40px;
+    background-color: #000000cc;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:500px) {
+    .cft{
+        padding: 15px 20px !important;
+    }
+}
+
+@media only screen and (min-width:500px) {
+    .cft div {
+        width: 800px;
+    }
+}

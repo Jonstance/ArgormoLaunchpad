@@ -1,0 +1,13 @@
+.cw-wp{
+    background-color: rgb(67, 67, 67);
+    position: absolute;
+    height: calc(100vh);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}

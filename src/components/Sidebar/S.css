@@ -1,0 +1,157 @@
+.Sidebar {
+  width: 0px;
+  height:calc(100vh - 100px);
+  right:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0px;
+  background-color: #005e9c;
+  overflow-y:auto;
+}
+
+.sidebar-el {
+  width: 100%;
+}
+
+.sidebar-el .links {
+  margin-bottom: 10px;
+}
+
+.sidebar-el .links>li {
+  list-style: none;
+  width: 100%;
+  padding: 12px 0px;
+  height: fit-content;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer; 
+} 
+
+.links .lt {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 10px;
+  /* margin-bottom: 8px; */
+  /* pointer-events: none; */
+}
+
+.links .lt .ln{
+  width: 70%;
+  color:white;
+  font-size: 14px;
+}
+
+.ina{
+  flex-grow: 1;
+  display: flex;
+  padding-top: 2.5px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.l-arr{
+  transform: scale(1.4) ;
+  margin-left: 16px;
+  margin-top: 3px;
+}
+
+.l-ic img {
+  transform: scale(1.18);
+}
+
+.l-dp{
+  background-color: white;
+  height: 0px;
+  display: none;
+  width: 100%;
+  margin-top: 8px;
+  transition: all 1s ease-in;
+}
+
+.l-dp ul{
+  list-style: none;
+}
+
+.in-l {
+  display: block;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.l-dp ul li {
+  width: 100%;
+  border-bottom: 1px solid #D4A838;
+  /* padding: 8px 0px; */
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px;
+  color:#D4A838;
+  transition: .42s ease;
+}
+
+.l-dp ul li:hover{
+  background-color: #333333;
+  color:white;
+}
+
+.l-dp a{
+  color:inherit;
+  text-decoration: none;
+}
+
+.st-lnk {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mode {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.mode span {
+  display: block;
+  text-align: left;
+  color:white;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.mode-cols {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mode-cols  div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.mode-cols span {
+  font-size: 10px;
+}
+
+.mode-cols .lt, .mode-cols .dk {
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.new_prm {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.npfm {
+    width: 100%;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-start;
+    align-items: center;
+}

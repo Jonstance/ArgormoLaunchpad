@@ -1,0 +1,56 @@
+.als {
+    font-size: 24px;
+    font-weight: bold;
+    color:var(--font-black);
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.login-wrp {
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.login-wrp form {
+    width: 100%;
+    display: flex;
+    flex-direction:column !important;
+    justify-content: flex-start;
+    align-items: center !important;
+}
+.login-wrp  label {
+    margin-bottom: 3px;
+}
+
+.login-wrp .text-row, .lg-err {
+    width: 60%;
+}
+
+@media only screen and (min-width:690px) {
+    .login-wrp .text-row, .lg-err {
+        min-width: 400px;
+    }
+}
+
+@media only screen and (max-width:690px) {
+    .login-wrp .text-row, .lg-err {
+        width: 100%;
+    }
+}
+
+.lg-err {
+    display: block;
+    text-align: center !important;
+    word-wrap: break-word;
+    color:red;
+    margin-bottom: 10px;
+}
+
+.login-wrp button {
+    margin-top: 10px;
+}

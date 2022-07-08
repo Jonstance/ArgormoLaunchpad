@@ -1,0 +1,115 @@
+.at2{
+    width: 100%;    
+}
+
+.lock-info .atir{
+    justify-content: space-between;
+    align-items: center;
+}
+.at2 .atir {
+    width: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    padding: 5px 0px;
+}
+
+.at2 .atir .value{
+   display: flex !important;
+   flex-direction: row !important;
+   justify-content: flex-end !important;
+}
+
+.tk-i {
+    width: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tk-i-h {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    width: 100% !important;
+    margin-bottom: 10px;
+    text-align: left !important;
+    color: var(--font-black);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.lock-info .at3 div {
+    max-width: 98%;
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.lock-info{
+    min-width: 305px;
+}
+
+.rns {
+    width: fit-content !important;
+}
+
+
+.lock-timer{
+    width: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    background-color: beige;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+}
+
+.lock-icons, .time-wrp {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-bottom: 12px;
+}
+
+.lock-icons img {
+    width: 20px;
+}
+
+.prg-w{
+    width: 100%;
+    height: 6px;
+    background-color: red;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: flex-start;
+    border-radius: 55px;
+    margin-bottom: 10px;
+}
+
+.pg-in{
+    width: 0%;
+    background-color: blue;
+    height: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-end !important;
+    border-radius: 50px;
+}
+
+.p-rcr{
+    padding: 7px;
+    background-color: inherit;
+    border-radius: 50%;
+    margin-right: -8px;
+}
+@media only screen and (max-width:600px){
+    
+.lock-info .at3 div {
+    width: 98% !important;
+}
+}
