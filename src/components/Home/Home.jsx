@@ -2,7 +2,6 @@ import Listing from "../Listing/Listing";
 import "./Home.css";
 import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
-import { AppContext } from "../../context/globalContext";
 import { useContext, useEffect, useState } from "react";
 
 import React from "react";

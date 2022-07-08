@@ -1,4 +1,3 @@
-import Listing from "../Listing/Listing";
 import "./S.css";
 import { useState } from "react";
 import React from "react";

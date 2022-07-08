@@ -5,7 +5,7 @@ import Listing from "../Listing/Listing";
 import Footer from "../Footer/Footer";
 import { getOneLaunchPadData } from "../../apiCalls/launchPad";
 import { useParams } from "react-router-dom";
-import moment, { min } from "moment";
+import moment from "moment";
 import Countdown from "react-countdown";
 import { approveToken, getTokenBalance } from "../../contractCalls/tokenCalls";
 import { AppContext } from "../../context/globalContext";
