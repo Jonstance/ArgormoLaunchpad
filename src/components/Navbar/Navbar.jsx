@@ -236,11 +236,11 @@ const Navbar = ({ setNetModal, setWalModal, sidebar, setSidebar }) => {
         >
           <div className="btimg">
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/e-launch-1fbd3.appspot.com/o/bnb.svg?alt=media&token=b29ffb4f-ec5f-4b0d-ba56-66ab350a15db"
-              alt="BNB LOGO"
+              src="https://firebasestorage.googleapis.com/v0/b/e-launch-1fbd3.appspot.com/o/eth.svg?alt=media&token=e5f2d2c3-81f1-45dc-966b-d39792df27d1"
+              alt="ETH LOGO"
             />
           </div>
-          <span>BSC MAINNET</span>
+          <span>ETH TESTNET</span>
         </div>
         <div className="ham" onClick={hamClick}>
           <svg
