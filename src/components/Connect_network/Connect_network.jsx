@@ -26,12 +26,12 @@ const Connect_network = ({setNetModal}) => {
           <div className="network">
             <img src="https://firebasestorage.googleapis.com/v0/b/e-launch-1fbd3.appspot.com/o/eth.svg?alt=media&token=e5f2d2c3-81f1-45dc-966b-d39792df27d1" alt="" />
             <div className="wlt-name">Ethereum</div>
-            <div className="c-s">(Coming Soon)</div>
           </div>
 
           <div className="network">
             <img src="https://firebasestorage.googleapis.com/v0/b/e-launch-1fbd3.appspot.com/o/bnb.svg?alt=media&token=b29ffb4f-ec5f-4b0d-ba56-66ab350a15db" alt="" />
             <div className="wlt-name">BNB Smart Chain</div>
+            <div className="c-s">(Coming Soon)</div>
           </div>
 
           <div className="network">
@@ -71,7 +71,7 @@ const Connect_network = ({setNetModal}) => {
           <div className="tsnt">Testnet</div>
 
           <div className="network">
-            <img src="https://firebasestorage.googleapis.com/v0/b/e-launch-1fbd3.appspot.com/o/bnb.svg?alt=media&token=b29ffb4f-ec5f-4b0d-ba56-66ab350a15db" alt="" />
+            <img src="https://firebasestorage.googleapis.com/v0/b/e-launch-1fbd3.appspot.com/o/eth.svg?alt=media&token=e5f2d2c3-81f1-45dc-966b-d39792df27d1" alt="" />
             <div className="wlt-name">BNB Smart Chain</div>
           </div>
 
