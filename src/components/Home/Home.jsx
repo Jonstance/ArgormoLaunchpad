@@ -121,7 +121,7 @@ const Home = () => {
         <div className="s1">
           <div className="item">
             <div className="itct">
-              <div className="circ">1</div>
+              <div className="circ">0</div>
               <div className="it-c">
                 <span>Total Liquidity Raised</span>
               </div>
@@ -130,7 +130,7 @@ const Home = () => {
 
           <div className="item">
             <div className="itct">
-              <div className="circ">2</div>
+              <div className="circ">0</div>
               <div className="it-c">
                 <span>Total Projects</span>
               </div>
@@ -139,7 +139,7 @@ const Home = () => {
 
           <div className="item">
             <div className="itct">
-              <div className="circ">3</div>
+              <div className="circ">0</div>
               <div className="it-c">
                 <span>Total Participants</span>
               </div>
@@ -148,7 +148,7 @@ const Home = () => {
 
           <div className="item">
             <div className="itct">
-              <div className="circ">4</div>
+              <div className="circ">0</div>
               <div className="it-c">
                 <span>Total Value Locked</span>
               </div>

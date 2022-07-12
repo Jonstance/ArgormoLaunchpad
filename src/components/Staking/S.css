@@ -12,6 +12,7 @@
   position: relative;
   margin-bottom: 45px;
   width: 100%;
+  background-color: #b56d3d;
 }
 
 .stk-hero img {
@@ -128,8 +129,8 @@
   width: 250px;
   padding: 10px;
   border-radius: 10px;
-  background-color: #b4e2ff;
-  border: 2px solid #33b1ff;
+  background-color: #b56d3d;
+  border: 2px solid #b56d3d;
   border: none;
   cursor: pointer;
 }
@@ -137,8 +138,8 @@
 .srh input {
   width: 300px;
   border-radius: 10px;
-  background-color: #b4e2ff;
-  border: 2px solid #33b1ff;
+  background-color: #b56d3d;
+  border: 2px solid #b56d3d;
   border: none;
   height: 40px;
   padding: 0px 20px;
@@ -156,7 +157,7 @@
 .pools-cont .pool {
     padding: 15px 20px;
     margin: 20px 15px;
-    background-color: #4fb9ff;
+    background-color: #b56d3d;
     border-radius: 15px;
     /* display: flex;
     flex-direction: column;
@@ -278,7 +279,7 @@ span.apr-v {
 .pr2r{
     padding: 10px 20px;
     background-color: white;
-    color:#0084d6;
+    color:#b56d3d;
     border-radius: 6px;
     font-weight: bold;
     cursor: pointer;

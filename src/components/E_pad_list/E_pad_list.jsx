@@ -110,11 +110,11 @@ const E_pad_list = () => {
       <div className="mc pls">
         <div className="mc-b epls">
           <header className="thd">
-            <span>E-Pads</span>
+            <span>Argor-Pads</span>
           </header>
           <div className="filter-btn">
             <div className="all-btn">
-              <span>All E-pads</span>
+              <span>All Argor-Pads</span>
               <div></div>
             </div>
           </div>

@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 85% !important;
+  width: 95% !important;
   min-height: 70vh;
   margin-bottom: 30px;
 }
@@ -75,7 +75,6 @@
 .tf input {
   width: 100%;
   height: 100%;
-  border-radius: 15px;
   padding-left: 20px;
   border: 1px solid silver;
   background-color: var(--input-bg);
@@ -112,7 +111,6 @@
   width: 120px;
   border: none;
   border: 1px solid silver;
-  border-radius: 20px;
   outline: none;
   cursor: pointer;
   height: 30px;
@@ -132,10 +130,9 @@
 
 .pool-wrapper {
   margin-bottom: 20px;
-  width: 335px;
+  width: 235px;
   margin: 15px;
   padding: 35px 20px 15px 20px;
-  border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background-color: var(--l-c-l-bg);
 }

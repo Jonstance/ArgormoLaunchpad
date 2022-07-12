@@ -190,12 +190,11 @@ span.hero-t {
 
 .circ {
   padding: 30px;
-  background-color: #D4A838;
   border-radius: 50%;
   margin-bottom: 20px;
-  color: white;
+  color: rgb(236, 157, 9);
   font-weight: bold;
-  font-size: 18px;
+  font-size: 38px;
 }
 
 .it-c {

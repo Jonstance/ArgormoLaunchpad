@@ -20,11 +20,10 @@ const Staking = () => {
       <div className="mc">
         <div className="stk-body">
           <div className="stk-hero">
-            <img src="https://firebasestorage.googleapis.com/v0/b/e-launch-1fbd3.appspot.com/o/stake.PNG?alt=media&token=56485ed7-497c-4b84-a5e7-cc39b3eb00c0" alt="" />
             <div className="stk-txt">
               <div className="stwr">
                 <span className="stpls">Staking Pools</span>
-                <span className="stpls-2">Stake EverFork and Earn tokens</span>
+                <span className="stpls-2">Stake Argormo and Earn tokens</span>
               </div>
             </div>
           </div>
