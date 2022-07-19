@@ -87,7 +87,7 @@ const Create_elock = () => {
 
     console.log(time)
 
-    const loadingToast  = toast.loading("Approving Tokens for Lock ....")
+    const loadingToast  = toast.loading("Approving Tokens for Stake ....")
 
 
     try{
@@ -99,24 +99,24 @@ const Create_elock = () => {
     console.log("Approve Res:",  approveTokenRes)
 
 
-    toast.update(loadingToast, {render : "Creating Lock...", autoClose:1200, isLoading:true} )
+    toast.update(loadingToast, {render : "Staking...", autoClose:1200, isLoading:true} )
 
     const unixTime =  new Date(time).getTime() / 1000
 
     console.log(unixTime)
 
 
-      const eLockRes =  await handleCreateLock(token, userWallet, isLiquidtyToken, amount, unixTime, "First ELock", approveTokenRes[1])
+      const eLockRes =  await handleCreateLock(token, userWallet, isLiquidtyToken, amount, unixTime, "First Stake", approveTokenRes[1])
 
 
 
-      toast.update(loadingToast, {autoClose:1000, render: "ELock Created", isLoading:false, type:"success"})
+      toast.update(loadingToast, {autoClose:1000, render: "Staked", isLoading:false, type:"success"})
 
     }
 
     catch(error){
       console.log(error)
-      toast.update(loadingToast, {autoClose:1000, render: "An issue occured while creating elock ", isLoading:false, type:"error"})
+      toast.update(loadingToast, {autoClose:1000, render: "An issue occured while staking ", isLoading:false, type:"error"})
 
     }
 
@@ -133,7 +133,7 @@ const Create_elock = () => {
       <div className="mc">
         <div className="mc-b elock">
           <div className="rw1">
-            <span>Create your lock</span>
+            <span>Stake</span>
           </div>
 
           <div className="certified">
@@ -165,7 +165,7 @@ const Create_elock = () => {
 
           <div className="lock-time">
             <div>
-              <span className="lt-title">Lock Until (UTC time)</span>
+              <span className="lt-title">Stake Until (UTC time)</span>
               <span className="ast">*</span>
             </div>
             <input type="datetime-local" name="" id="" onChange={(e)=>setTime(e.target.value)} value={time}/>
@@ -186,18 +186,18 @@ const Create_elock = () => {
 
           <div className="l-it">
             <span>
-              Please exclude E-locks lockup address 0x7ee0584
+              Please exclude Argormo Launchpad staking address 0x7ee0584
               20e5937496fsa984038caA77121ef70cc from fees, rewards, max tx
-              amount to start locking tokens.{" "}
+              amount to start staking tokens.{" "}
             </span>
 
             <span className="inl">We dont support rebase tokens.</span>
           </div>
 
-          <div className="lsp">You will pay: 0 BNB</div>
+          <div className="lsp">You will pay: 0 ETH</div>
 
           <button className="lb" onClick={()=>handleCreateLockClick()}
-          >Lock</button>
+          >Stake</button>
         </div>
       </div>
       <Footer />
