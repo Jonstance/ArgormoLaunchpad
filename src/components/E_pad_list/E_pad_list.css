@@ -116,7 +116,7 @@
   height: 30px;
   padding: 0px 10px;
   background-color: var(--input-bg);
-  color:var(--font-black);
+  color: black;
 }
 
 .all-pools-wrapper {
@@ -146,7 +146,7 @@
   justify-content: flex-start !important;
   align-items: flex-start !important;
   margin-bottom: 4px;
-  color: var(--font-black);
+  color: black;
 }
 
 .dt2 {
@@ -165,7 +165,7 @@
   width: 100%;
   font-size: 15px;
   font-weight: bold;
-  color: var(--font-black);
+  color: black;
   text-align: left !important;
   display: flex;
   justify-content: flex-start !important;
@@ -183,7 +183,7 @@
 }
 
 .prs{
-  color: var(--font-black);
+  color: black;
 }
 
 .prgbar {
