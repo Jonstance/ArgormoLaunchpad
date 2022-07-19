@@ -182,11 +182,6 @@ const Navbar = ({ setNetModal, setWalModal, sidebar, setSidebar }) => {
                 </Link>
               </li>
              
-              <li onClick={handleClick}>
-                <Link to="E_pad_list" className="ul-link">
-                  E-pad
-                </Link>
-              </li>
             </ul>
 
           </div>
@@ -201,7 +196,7 @@ const Navbar = ({ setNetModal, setWalModal, sidebar, setSidebar }) => {
 
         <div>
         <span className="fs">
-        <Link to="Staking" className="ul-link">
+        <Link to="Create_elock" className="ul-link">
                   Staking
                 </Link>
         </span>
