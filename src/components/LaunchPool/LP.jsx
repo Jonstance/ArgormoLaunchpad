@@ -564,8 +564,8 @@ const LP = () => {
             </div>
 
             <div className="bar-value">
-              <span className="vl">{/* Render value here */} BNB</span>
-              <span className="vr">{/* Render value here */} BNB</span>
+              <span className="vl">{/* Render value here */} ETH</span>
+              <span className="vr">{/* Render value here */} ETH</span>
             </div>
 
                 {
