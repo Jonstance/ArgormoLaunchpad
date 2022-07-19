@@ -200,7 +200,7 @@ const FairLaunch = () => {
 
 
   const handleCreateEpadBUSD = async()=>{
-    const createEpadToast  = toast.loading("Creating EPad....")
+    const createEpadToast  = toast.loading("Creating ArgorPad....")
     try{
 
 
@@ -254,7 +254,7 @@ const FairLaunch = () => {
 
        
 
-      toast.update(createEpadToast, {autoClose:1000, render: "E Pad Created Successfully ", isLoading:false, type:"success"})
+      toast.update(createEpadToast, {autoClose:1000, render: "ArgorPad Created Successfully ", isLoading:false, type:"success"})
 
 
       setOffset(offset - 100);
@@ -266,14 +266,14 @@ const FairLaunch = () => {
     }
     catch(error){
       console.log(error)
-      toast.update(createEpadToast, {autoClose:1000, render: "An issue occured while creating e pad  ", isLoading:false, type:"error"})
+      toast.update(createEpadToast, {autoClose:1000, render: "An issue occured while creating ArgorPad  ", isLoading:false, type:"error"})
 
     }
   }
 
 
   const handleCreateEpadBNB = async()=>{
-    const createEpadToast  = toast.loading("Creating EPad....")
+    const createEpadToast  = toast.loading("Creating ArgorPad....")
     try{
 
 
@@ -326,7 +326,7 @@ const FairLaunch = () => {
 
        
 
-      toast.update(createEpadToast, {autoClose:1000, render: "E Pad Created Successfully ", isLoading:false, type:"success"})
+      toast.update(createEpadToast, {autoClose:1000, render: "ArgorPad Created Successfully ", isLoading:false, type:"success"})
 
 
       setOffset(offset - 100);
@@ -338,7 +338,7 @@ const FairLaunch = () => {
     }
     catch(error){
       console.log(error)
-      toast.update(createEpadToast, {autoClose:1000, render: "An issue occured while creating e pad  ", isLoading:false, type:"error"})
+      toast.update(createEpadToast, {autoClose:1000, render: "An issue occured while creating ArgorPad  ", isLoading:false, type:"error"})
 
     }
   }
@@ -432,7 +432,7 @@ const FairLaunch = () => {
                       id="adf"
                     />
                     <div className="caption">
-                      <span>Create pool fee : 0.2 BNB</span>
+                      <span>Create pool fee : 0.2 ETH</span>
                     </div>
                   </div>
   
@@ -462,17 +462,12 @@ const FairLaunch = () => {
                     <ul>
                       <li>
                         <input type="radio" name="cur" id="bnb" onClick={() => setCurrency("BNB")} />
-                        <label htmlFor="bnb" onClick={() => setCurrency("BNB")}>
-                          BNB
+                        <label htmlFor="ETH" onClick={() => setCurrency("BNB")}>
+                          ETH
                         </label>
                       </li>
   
-                      <li>
-                        <input type="radio" name="cur" id="busd"  onClick={() => setCurrency("BUSD")} />
-                        <label htmlFor="busd" onClick={() => setCurrency("BUSD")}>
-                          BUSD
-                        </label>
-                      </li>
+                     
   
                       {/* <li>
                         <input type="radio" name="cur" id="usdc" />
@@ -483,7 +478,7 @@ const FairLaunch = () => {
                     </ul>
   
                     <div className="hint">
-                      <span>Users will pay with BNB for your token</span>
+                      <span>Users will pay with ETH for your token</span>
                     </div>
   
                     <div className="c-c">
@@ -498,13 +493,13 @@ const FairLaunch = () => {
                       <li>
                         <input type="radio" name="fee-option" id="2%"onClick={() => setFeeOption("2")}  />
                         <label htmlFor="2%" onClick={() => setFeeOption("2")}>
-                          2% BNB raised + 1.5 token raised
+                          2% ETH raised + 1.5 token raised
                         </label>
                       </li>
                       <li>
                         <input type="radio" name="fee-option" id="4%" onClick={() => setFeeOption("4")} />
                         <label htmlFor="4%" onClick={() => setFeeOption("4")}>
-                          4% BNB raised only
+                          4% ETH raised only
                         </label>
                       </li>
                     </ul>
@@ -557,7 +552,7 @@ const FairLaunch = () => {
                   <div className="text-row">
                     <div className="title">
                       <label htmlFor="">
-                        Softcap (BNB)
+                        Softcap (ETH)
                         <span>*</span>
                       </label>
                     </div>
@@ -612,7 +607,7 @@ const FairLaunch = () => {
                     
   
                     <span>
-                      If i spend 1BNB on {router}, how many tokens will i receive? Usually
+                      If i spend 1ETH on {router}, how many tokens will i receive? Usually
                       this amount is lower than presale rate to allow for a higher
                       listing price on {router}
                     </span>
