@@ -27,14 +27,14 @@ module.exports = {
   etherscan: {
     // Your API key for Etherscan
     // Obtain one at https://etherscan.io/
-    apiKey: bscScanApiKey
+    apiKey: ethScanApiKey
   },
-  defaultNetwork: "bsctestnet",
+  defaultNetwork: "rinkebybtestnet",
   networks: {
    
-    bsctestnet: {
-      url: "https://data-seed-prebsc-2-s3.binance.org:8545",
-      chainId: 97,
+    rinkebytestnet: {
+      url: "https://rinkeby.infura.io/v3/",
+      chainId: 4,
       accounts: [privateKey]
     }
     
