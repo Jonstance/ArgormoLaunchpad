@@ -167,7 +167,7 @@ const Create = () => {
 
 
   const handleCreateEpadBUSD = async()=>{
-    const createEpadToast  = toast.loading("Creating EPad....")
+    const createEpadToast  = toast.loading("Creating ArgorPad....")
     try{
 
 
@@ -219,7 +219,7 @@ const Create = () => {
 
        
 
-      toast.update(createEpadToast, {autoClose:1000, render: "E Pad Created Successfully ", isLoading:false, type:"success"})
+      toast.update(createEpadToast, {autoClose:1000, render: "ArgorPad Created Successfully ", isLoading:false, type:"success"})
 
 
       setOffset(offset - 100);
@@ -231,14 +231,14 @@ const Create = () => {
     }
     catch(error){
       console.log(error)
-      toast.update(createEpadToast, {autoClose:1000, render: "An issue occured while creating e pad  ", isLoading:false, type:"error"})
+      toast.update(createEpadToast, {autoClose:1000, render: "An issue occured while creating ArgorPad  ", isLoading:false, type:"error"})
 
     }
   }
 
 
   const handleCreateEpadBNB = async()=>{
-    const createEpadToast  = toast.loading("Creating EPad....")
+    const createEpadToast  = toast.loading("Creating ArgorPad....")
     try{
 
 
@@ -290,7 +290,7 @@ const Create = () => {
 
        
 
-      toast.update(createEpadToast, {autoClose:1000, render: "E Pad Created Successfully ", isLoading:false, type:"success"})
+      toast.update(createEpadToast, {autoClose:1000, render: "ArgorPad Created Successfully ", isLoading:false, type:"success"})
 
 
       setOffset(offset - 100);
@@ -302,7 +302,7 @@ const Create = () => {
     }
     catch(error){
       console.log(error)
-      toast.update(createEpadToast, {autoClose:1000, render: "An issue occured while creating e pad  ", isLoading:false, type:"error"})
+      toast.update(createEpadToast, {autoClose:1000, render: "An issue occured while creating ArgorPad  ", isLoading:false, type:"error"})
 
     }
   }
@@ -393,7 +393,7 @@ const Create = () => {
                     id="adf"
                   />
                   <div className="caption">
-                    <span>Create pool fee : 0.5 BNB</span>
+                    <span>Create pool fee : 0.5 ETH</span>
                   </div>
                 </div>
 
@@ -424,16 +424,11 @@ const Create = () => {
                     <li>
                       <input type="radio" name="cur" id="bnb"  onClick={() => setCurrency("BNB")} />
                       <label htmlFor="bnb" onClick={() => setCurrency("BNB")}>
-                        BNB
+                        ETH
                       </label>
                     </li>
 
-                    <li>
-                      <input type="radio" name="cur" id="busd" onClick={() => setCurrency("BUSD")} />
-                      <label htmlFor="busd" onClick={() => setCurrency("BUSD")}>
-                        BUSD
-                      </label>
-                    </li>
+                   
 
                     {/* <li>
                       <input type="radio" name="cur" id="usdc" onClick={() => setCurrency("USDC")} />
@@ -459,13 +454,13 @@ const Create = () => {
                     <li>
                       <input type="radio" name="fee-option" id="2%" onClick={() => setFeeOption("2")} />
                       <label htmlFor="2%" onClick={() => setFeeOption("2")}>
-                        2% BNB raised
+                        2% ETH raised
                       </label>
                     </li>
                     <li>
                       <input type="radio" name="fee-option" id="4%"  onClick={() => setFeeOption("4")}/>
                       <label htmlFor="4%" onClick={() => setFeeOption("4")}>
-                        4% BNB raised
+                        4% ETH raised
                       </label>
                     </li>
                   </ul>
