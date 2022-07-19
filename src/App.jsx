@@ -44,12 +44,7 @@ function App() {
     const main = document.querySelector(".main");
     if (window.innerWidth > 900) {
     }
-    let theme = localStorage.getItem("theme");
-    if (theme == null) {
-      return;
-    } else {
-      theme == "light" ? lightTheme() : darkTheme();
-    }
+    
   });
 
   window.addEventListener("resize", () => {
@@ -59,53 +54,8 @@ function App() {
     } else {
     }
   });
-  const darkTheme = () => {
-    const root = document.querySelector(":root");
-    root.style.setProperty("--bg-white", "rgb(37, 37, 37)");
-    root.style.setProperty("--bg-black", "white");
-    root.style.setProperty("--font-white", "black");
-    root.style.setProperty("--font-black", "white");
-    root.style.setProperty("--card-light-bg", "rgb(94, 93, 93)");
-    root.style.setProperty("--pc-border", "none");
-    root.style.setProperty("--nav-bt-white-bg", "rgb(94, 93, 93)");
-    root.style.setProperty("--nav-bt-blue-font", "white");
-    root.style.setProperty("--modal-font", "white");
-    root.style.setProperty("--modal-top", "rgb(65, 65, 65)");
-    root.style.setProperty("--input-border", "black");
-    root.style.setProperty("--input-bg", "rgb(65, 65, 65)");
-    root.style.setProperty("--warn-1-border", "#b9b9b9");
-    root.style.setProperty("--warn-1-bg", "#1313138a");
-    root.style.setProperty("--cert-bg", "#D4A838");
-    root.style.setProperty("--e-list-s-font", "#87ff4f");
-    root.style.setProperty("--l-c-l-bg", "rgb(94, 93, 93)");
-    root.style.setProperty("--v-lt", "#fffc2f");
-    root.style.setProperty("--list-font", "rgb(174, 200, 252)");
-    localStorage.setItem("theme", "dark");
-  };
-
-  const lightTheme = () => {
-    const root = document.querySelector(":root");
-    root.style.setProperty("--bg-black", "black");
-    root.style.setProperty("--bg-white", "white");
-    root.style.setProperty("--font-black", "black");
-    root.style.setProperty("--font-white", "white");
-    root.style.setProperty("--card-light-bg", "#e9f3f9");
-    root.style.setProperty("--pc-border", "1px solid #45b4ff");
-    root.style.setProperty("--nav-bt-white-bg", "white");
-    root.style.setProperty("--nav-bt-blue-font", "#D4A838");
-    root.style.setProperty("--modal-font", "#D4A838");
-    root.style.setProperty("--modal-top", "white");
-    root.style.setProperty("--input-border", "#D4A838");
-    root.style.setProperty("--input-bg", "white");
-    root.style.setProperty("--warn-1-border", "#FFF5A3");
-    root.style.setProperty("--warn-1-bg", "#FDFAE1");
-    root.style.setProperty("--cert-bg", "#DDFFF1");
-    root.style.setProperty("--e-list-s-font", "silver");
-    root.style.setProperty("--l-c-l-bg", "white");
-    root.style.setProperty("--v-lt", "#ff2f2f");
-    root.style.setProperty("--list-font", "#0366a8");
-    localStorage.setItem("theme", "light");
-  };
+  
+ 
 
   // if(!sidebar) document.querySelector(".main").style.width="100%"
   return (
