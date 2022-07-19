@@ -11,12 +11,11 @@
   --bg-white: white;
   --bg-black: black;
   --bg-blue: #D4A838;
-  --font-white:white;
-  --font-black:black;
+  --font-white:black;
+  --font-black:white;
   --font-blue:#D4A838;
   --modal-font:#D4A838;
   --modal-top:white;
-  --card-light-bg:#e9f3f9;
   --card-light-bg:#794400;
   --pc-border:1px solid #45b4ff;
   --nav-bt-white-bg: white;
@@ -36,7 +35,7 @@
   z-index: -2;
   flex-shrink: 0;
   margin-top: 85px;
-  background-color: var(--bg-white);
+  background-image: url(${process.env.PUBLIC_URL+ "/images/bg.jpg"});
 }
 
 .dbb .hmlk {
